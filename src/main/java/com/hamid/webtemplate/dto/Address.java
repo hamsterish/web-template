@@ -1,4 +1,4 @@
-package com.hamid.webtemplate.model;
+package com.hamid.webtemplate.dto;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -16,5 +16,6 @@ public class Address implements Serializable{
     String city;
     String country;
     String postCode;
+    User user;
 
 }

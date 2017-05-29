@@ -1,4 +1,4 @@
-package com.hamid.webtemplate.model;
+package com.hamid.webtemplate.dto;
 
 import java.io.Serializable;
 

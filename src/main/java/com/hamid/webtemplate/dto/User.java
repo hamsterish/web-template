@@ -1,4 +1,4 @@
-package com.hamid.webtemplate.model;
+package com.hamid.webtemplate.dto;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;

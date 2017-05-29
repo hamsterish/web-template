@@ -1,7 +1,7 @@
 package com.hamid.webtemplate.controller;
 
 
-import com.hamid.webtemplate.model.User;
+import com.hamid.webtemplate.dto.User;
 import com.hamid.webtemplate.utils.UserValidator;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

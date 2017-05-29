@@ -1,6 +1,6 @@
 package com.hamid.webtemplate.utils;
 
-import com.hamid.webtemplate.model.User;
+import com.hamid.webtemplate.dto.User;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
