@@ -1,5 +1,7 @@
 package com.hamid.webtemplate.model;
 
-public enum Title {
+import java.io.Serializable;
+
+public enum Title implements Serializable{
     MR, MRS, MISS, DR
 }
