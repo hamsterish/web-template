@@ -1,16 +1,18 @@
 package com.hamid.webtemplate.controller;
 
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import com.hamid.webtemplate.model.User;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
 
 @RestController
 public class MainController {
 
-    @RequestMapping("/greeting")
-    public String greeting(@RequestParam(value="name", defaultValue="World") String name) {
-        return "Hello: " + name;
+    @RequestMapping(value = "/user", method = RequestMethod.POST)
+    public ResponseEntity<String> addUser(@RequestBody User user) {
+        return new ResponseEntity<>(user.toString(), HttpStatus.OK);
     }
 
 }
